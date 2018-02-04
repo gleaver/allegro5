@@ -1,0 +1,17 @@
+{
+  "name": "allegro5",
+  "environment": "arch",
+  "supportedEnvironments": [
+    "arch"
+  ],
+  "components": {
+    "allegro5": {
+      "defaultConfig": "release",
+      "configurations": [
+        "release"
+      ]
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

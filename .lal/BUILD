@@ -20,11 +20,11 @@ build() {
   
   cmake \
     -DCMAKE_INSTALL_PREFIX="${output}" \
+    -DSHARED=NO \
     -DWANT_MONOLITH=ON \
-    -DLINUX=ON \
-    -DCMAKE_BUILD_TYPE=DEBUG \
+    -DCMAKE_BUILD_TYPE=RELEASE \
     -DCMAKE_C_COMPILER=clang \
-    -DCMAKE_CXX_COMPILER=clang++ \
+    -DWANT_DEMO=OFF \
     ..
 
   make && make install
